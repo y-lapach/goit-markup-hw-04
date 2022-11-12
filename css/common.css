@@ -170,6 +170,9 @@ margin-right: 50px;
     color: var(--accent-color);
 }
 
+.icon-email {
+    color:currentColor;
+}
 /*-----------------------FOOTER-------------------------*/
 footer {
     padding-top:60px;
