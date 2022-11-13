@@ -16,6 +16,7 @@
     --bg-light-grey: #F5F4FA;
     --hero-bg:#2F303A;
     --footer-bg: #2F303A;
+    --footer-socials-bg:rgba(255, 255, 255, 0.1);
     /*Borders*/
     --header-border:#ECECEC;
     --border-light-grey:#EEEEEE;
@@ -187,7 +188,13 @@ footer {
     padding-bottom: 60px;
     background-color: var(--footer-bg);
 }
-
+footer .container {
+    display: flex;
+    align-items: baseline;
+}
+.address {
+    margin-right: 70px;
+}
 address {
     font-style: normal;
 }
@@ -220,4 +227,40 @@ address {
 .ftr-contacts .address-link:hover,
 .ftr-contacts .address-link:focus {
     color: var(--accent-color);
+}
+.ftr-join .join {
+    margin-bottom: 20px;
+    color: var(--primary-white);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.ftr-join .ftr-socials-list {
+    display: flex;
+    justify-content: center;
+}
+
+.ftr-socials-list .ftr-socials-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: var(--primary-white);
+    background-color: var(--footer-socials-bg);
+    border-radius: 50%;
+}
+
+.ftr-socials-list .ftr-socials-item a:hover,
+.ftr-socials-list .ftr-socials-item a:focus {
+    background-color: var(--accent-color);
+}
+
+.ftr-socials-item .ftr-socials-icon {
+    fill: currentColor;
+}
+.ftr-socials-list .ftr-socials-item:not(:last-child) {
+    margin-right: 10px;
 }
