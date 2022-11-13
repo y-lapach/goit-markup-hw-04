@@ -11,6 +11,7 @@
     --text-color-darkgrey: #212121;
     --text-color-grey: #757575;
     --ftr-address-contacts:rgba(255, 255, 255, 0.6);
+    --main-icons-color: #AFB1B8;
     /*Backgrounds*/
     --bg-light-grey: #F5F4FA;
     --hero-bg:#2F303A;
@@ -54,6 +55,9 @@ p {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+.link {
+    text-decoration: none;
 }
 img {
     display: block;

@@ -117,8 +117,30 @@
     line-height: 1.19;
 }
 .team-list .team-text {
+    margin-bottom:16px;
     font-size: 16px;
     line-height: 1.19;
+}
+.team-socials {
+    display: flex;
+    justify-content: center;
+}
+.team-socials .team-socials-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color:var(--main-icons-color);
+}
+.team-socials .team-socials-item a:hover,
+.team-socials .team-socials-item a:focus {
+    color: var(--primary-white);
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+.team-socials-item .team-socials-icon {
+    fill: currentColor;
 }
 
 /*-----------------------PORTFOLIO-------------------------*/
