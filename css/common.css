@@ -150,7 +150,8 @@ margin-right: 50px;
 }
 
 .contacts-list .contacts-link {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--text-color-grey);
@@ -170,9 +171,12 @@ margin-right: 50px;
     color: var(--accent-color);
 }
 
-.icon-email {
-    color:currentColor;
+.icon-email,
+.icon-telephone {
+    margin-right: 10px;
+    fill:currentColor;
 }
+
 /*-----------------------FOOTER-------------------------*/
 footer {
     padding-top:60px;
