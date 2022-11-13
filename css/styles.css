@@ -1,5 +1,8 @@
 /*-----------------------HERO SECTION-------------------------*/
 .hero {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 200px 0;
     text-align: center;
     background-color: var(--hero-bg);
@@ -65,10 +68,11 @@
     margin-right: 30px;
 }
 .features-item .thumb {
+    display: flex;
+    height: 120px;
     margin-bottom: 30px;
-    padding-top:25px;
-    padding-bottom:25px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color: var(--bg-light-grey);
 }
 .features .title {
@@ -124,6 +128,9 @@
 .team-socials {
     display: flex;
     justify-content: center;
+}
+.team-socials .team-socials-item:not(:last-child) {
+    margin-right: 10px;
 }
 .team-socials .team-socials-item a {
     display: flex;
